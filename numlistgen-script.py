@@ -1,12 +1,13 @@
-n = int(input('Inserire un numero: '))
+#Numlistgen v0.2 by Riccardo3000
+#Questo script genera un elenco di numeri in ordine crescente.
+
+n = int(input('inserire il numero finale: '))
+n1 = int(input('Inserire il numero di partenza: ' ))
 
 for i in range(n+1):
-        print(i)
-info = ("NumListGen v0.1   Riccardo3000   2022")
+  if i >= n1:
+    print(i)
 
-comando_per_info = input('per maggiori informazioni, digitare "info".')
-
-if comando_per_info == "info":
-    print(info)
-        
-        
+input('per uscire, scrivere "z".')
+if input == 'z':
+  quit()
